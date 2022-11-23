@@ -2,10 +2,11 @@ import React from 'react';
 import {SafeAreaView} from 'react-native';
 import Sentimiento from './Sentimiento';
 
-const Miedo = () => {
+const Miedo = props => {
   return (
     <SafeAreaView>
       <Sentimiento
+        navigation={props.navigation}
         sentimiento="miedo"
         descripcion="Aparece ante amenzas o peligros"
         route={require('../assets/img/miedo.png')}

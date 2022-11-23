@@ -4,7 +4,7 @@ import Landing from './Landing';
 
 const Ingreso = props => {
   return (
-    <Landing>
+    <Landing navigation={props.navigation}>
       <Image
         style={{width: 250, height: 250, alignSelf: 'center', marginTop: 50}}
         source={require('../assets/img/logo.png')}
@@ -17,7 +17,8 @@ const Ingreso = props => {
             backgroundColor: '#755AC6',
             borderRadius: 50,
             justifyContent: 'center',
-          }}>
+          }}
+          onPress={() => props.navigation.navigate('Login')}>
           <Text
             style={{
               color: 'white',

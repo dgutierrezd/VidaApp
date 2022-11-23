@@ -4,7 +4,7 @@ import Landing from './Landing';
 
 const Sentimiento = props => {
   return (
-    <Landing>
+    <Landing navigation={props.navigation}>
       <View style={styles.containerBackground}>
         <ImageBackground
           source={require('../assets/img/logo-vidaapp.png')}
