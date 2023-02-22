@@ -11,6 +11,7 @@ const Tristeza = props => {
         descripcion="Aparece ante la pérdida o el dolor"
         route={require('../assets/img/tristeza.png')}
         color="#30A1E9"
+        video="P7m3SPCqFSs"
       />
     </SafeAreaView>
   );

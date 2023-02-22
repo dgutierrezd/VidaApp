@@ -11,6 +11,7 @@ const Miedo = props => {
         descripcion="Aparece ante amenzas o peligros"
         route={require('../assets/img/miedo.png')}
         color="#755AC6"
+        video="toVQG8cofsI"
       />
     </SafeAreaView>
   );

@@ -11,6 +11,7 @@ const Enojo = props => {
         descripcion="Aparece cuando algo nos disgusta o cuando no logramos lo que queremos"
         route={require('../assets/img/enojo.png')}
         color="#EF2634"
+        video="ZfUhovg4Faw"
       />
     </SafeAreaView>
   );
